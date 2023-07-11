@@ -254,34 +254,18 @@ The unit testing knowledge you gained in this lab can be scaled up to much large
 
 # 4 Deliverables and Grading
 
-## 4.1 Demo (20%)
-
-The objectives for the demo are a) Preparing you for technical presentations, b) an early assessment of your work to give you a second chance to submit a high quality report, and c) making sure everybody in the team contributes evenly.
-
-It is mandatory for all team members to attend the demo session and explain the TAs in the lab what they have done for this assignment. All the team members should attend the demo. The TAs will go through the groups and each group member must demonstrate examples of developed tests for each method that they designed (and bugs they found) – at least two tests per student, which one uses mocking. They should also explain their strategy for designing the tests.
-
-**NOTE1: Student who miss the demo session or are unable to demo what is detailed above are considered as less- contributors and may lose up to the entire assignment 2’s mark.**
-
-**NOTE2: You still have time to further improve your test suite, after the demo session and before the deadline.**
-
-**NOTE3: The TAs will ask questions and all the group members should be able to answer the questions individually.**
-
-**NOTE4: All the students should demo all the parts including mocking even if they did not write the code for that part**
-
-**when dividing the work.**
-
-## 4.2 Lab Report (20%)
+## 4.1 Lab Report (20%)
 
 To be consistent, please use the template Word file [“seng438-a2-team_number.md”](seng438-a2-team_number.md) provided in the reopsitory.
 
 | Marking scheme                                                                                                                                                                                                                                                                                                                                                                                                                                                        |     |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| A detailed description of the testing strategy for unit testing and your test-case design approach, i.e., how you used the black-box test-case design techniques equivalence classes, and boundary value analysis. Also list the name of the test cases you have designed and identify which one covers which parts of the strategy (which partition, which class, etc.) Include a discussion about what you feel are the benefits and drawbacks about using mocking. | 15% |
+| A detailed description of the testing strategy for unit testing and your test-case design approach, i.e., how you used the black-box test-case design techniques equivalence classes, and boundary value analysis. Also list the name of the test cases you have designed and identify which one covers which parts of the strategy (which partition, which class, etc.) Include a discussion about what you feel are the benefits and drawbacks about using mocking. | 25% |
 | A discussion on how the team work/effort was divided and managed. Any lessons learned from your teamwork on this lab?                                                                                                                                                                                                                                                                                                                                                 | 2%  |
 | Difficulties encountered, challenges overcome, and lessons learned from performing the lab                                                                                                                                                                                                                                                                                                                                                                           | 2%  |
 | Comments/feedback on the lab itself.                                                                                                                                                                                                                                                                                                                                                                                                                                   | 1%  |
 
-## 4.3 Junit Test Suite (60%)
+## 4.2 Junit Test Suite (70%)
 
 Your Eclipse project including any external library for mocking and all test suite Java files should be submitted along with the lab report in GitHub. The JUnit test should be executable AS IS. No restricting, importing, etc. should be needed.
 
@@ -291,8 +275,8 @@ The grading criteria for JUnit test suite are as follows:
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --- |
 | **Clarity:** are they easy to follow, through commenting or style, etc.? The test cases should also have comments that shows which test follows which part of the test strategy. E.g., this test covers a maximum value for variable X and normal values for variable Y and Z in method A(X,Y,Z) | 10% |
 | **Adherence to requirements:** do they cover all the classes and partitions described in the test strategy?)                                                                                                                                                                                     | 10% |
-| **Completeness:** are there any obvious requirements which have not been tested? Have equivalence classes, and boundary value analysis been followed carefully? Is your unit test suite clearly match the test-case design section in your lab report?                                           | 20% |
-| **Correctness:** do test run without error? do the tests actually test what they are intended to test?                                                                                                                                                                                           | 20% |
+| **Completeness:** are there any obvious requirements which have not been tested? Have equivalence classes, and boundary value analysis been followed carefully? Is your unit test suite clearly match the test-case design section in your lab report?                                           | 25% |
+| **Correctness:** do test run without error? do the tests actually test what they are intended to test?                                                                                                                                                                                           | 25% |
 
 > **Important note**: Please store the JUnit test suite you have developed in this lab in a known location. It will be re-used in the next Labs.
 
