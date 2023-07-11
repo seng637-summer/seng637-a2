@@ -254,7 +254,7 @@ The unit testing knowledge you gained in this lab can be scaled up to much large
 
 # 4 Deliverables and Grading
 
-## 4.1 Lab Report (20%)
+## 4.1 Lab Report (30%)
 
 To be consistent, please use the template Word file [“seng438-a2-team_number.md”](seng438-a2-team_number.md) provided in the reopsitory.
 
